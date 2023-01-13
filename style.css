@@ -5,6 +5,9 @@ body{
 h1{
         font-size: 45px;
 }
+h2{
+        font-size: 40px;
+}
 .color1{
         color: orange;
 }
@@ -12,7 +15,8 @@ h1{
         width: 50%;
         padding: 5%;
 }
-section{
+.flexible{
+        margin-bottom: 100px;
         display: flex;
 }
 .half img{
@@ -29,5 +33,22 @@ section{
 }
 .top-banner{
         background-image: url(top-banner.png);
+        background-repeat: no-repeat;
+}
+
+.dream-big{
+        background-image: url(dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+}
+.experinence-item{
+        box-shadow: 40px 40px 50px grey;
+        width: 40%;
+        margin: 5%;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+.experience{
+        background-image: url(exp-bg.png);
         background-repeat: no-repeat;
 }
