@@ -51,4 +51,14 @@ h2{
 .experience{
         background-image: url(exp-bg.png);
         background-repeat: no-repeat;
+        background-position: left;
+}
+#full{
+        border-left: 7px solid tomato;
+}
+#coder{
+        border-left: 7px solid blue;
+}
+footer p{
+        text-align: center;
 }
